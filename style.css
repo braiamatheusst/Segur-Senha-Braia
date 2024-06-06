@@ -4,5 +4,14 @@
 :root{
     --branco: white;
     --cor-de-fundo: #00162e;
-    --cor-da-senha: #00244d;  
+    --fundo-da-senha: #00244d;
+    --fundo-texto: #0075ff;
+    --borda: #001E40; 
+    --roboto: 'Roboto', sans-serif;
+    --roboto: 'Roboto Mono', sans-serif;
+}
+body{
+    color: var(--branco);
+    background-color: var(--cor-de-fundo);
+    font-family: var(--roboto);
 }
